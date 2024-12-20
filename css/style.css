@@ -29,6 +29,9 @@ a {
 section {
   padding: 2rem 9%;
 }
+li {
+  list-style: none;
+}
 
 /* Header Styling */
 /* .header {
@@ -40,7 +43,7 @@ section {
 .container {
   max-width: 1360px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
 /* header */
@@ -210,7 +213,7 @@ button:hover {
   align-items: center;
   flex-direction: column;
 }
-.stats div h2 {
+.p-stats div h2 {
   font-size: 28px;
   color: var(--primary-color);
 }
@@ -293,3 +296,4 @@ button:hover {
 }
 
 /* footer */
+
