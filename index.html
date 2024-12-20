@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-rtl.css" />
+    <link rel="stylesheet" href="css/Response.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <a href="#" class="logo"><img src="images/Logo.png" alt="Logo" /></a>
+          <button class="menu-toggle" aria-label="Toggle Menu">
+            <i class="fa fa-bars"></i>
+          </button>
+          <nav class="navbar list-unstyled">
+            <li><a class="link" href="#">home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Support</a></li>
+          </nav>
+          <div class="auth">
+            <h3>Sign Up</h3>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Header Section -->
+    <section class="hero">
+      <div class="imgContant">
+        <div class="desc">
+          <h1>Interior Design</h1>
+          <p>
+            Step into a world where the art of Interior Design is meticulously
+            crafted to bring together timeless elegance and cutting-edge modern
+            Innovation, Allowing you to transform your living spaces into the
+            epitome of luxury and sophistication
+          </p>
+        </div>
+        <img src="images/Image1.png" alt="Hero Image" />
+      </div>
+      <div class="contantImg">
+        <div class="bg">
+          <button class="start-btn">Start Project</button>
+
+          <div class="stats">
+            <div class="p-stats">
+              <h2>400+</h2>
+              <p>Project Complete</p>
+            </div>
+            <div class="p-stats">
+              <h2>600+</h2>
+              <p>Satisfied Clients</p>
+            </div>
+            <div class="p-stats">
+              <h2>100+</h2>
+              <p>Unique Styles</p>
+            </div>
+          </div>
+        </div>
+        <div class="Img">
+          <div class="img-container">
+            <img class="img-1" src="images/Rectangle60.png" alt="Hero Image" />
+          </div>
+          <img class="img-2" src="images/Image2.png" alt="Hero Image" />
+          <div class="arrowdown">
+            <img class="img-arrowdown" src="images/Arrowdown.png" alt="Arrowdown" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+      <h2>Our Services</h2>
+      <div class="service-items">
+        <div>
+          <h3>Lighting Design</h3>
+          <p>
+            Achieve the best functional and aesthetic look for beautiful
+            interiors.
+          </p>
+        </div>
+        <div>
+          <h3>Interior Design</h3>
+          <p>Plan your space, select materials, and execute with efficiency.</p>
+        </div>
+        <div>
+          <h3>Outdoor Design</h3>
+          <p>Celebrate the changing seasons with stunning outdoor decor.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dream Section -->
+    <section class="dream">
+      <div class="content">
+        <h2>Designing Your Dream With Brilliance</h2>
+        <p>Enhance your spaces with exquisite interior designs.</p>
+        <ul>
+          <li>Living Room Interior Design</li>
+          <li>Commercial Office Room Interior Design</li>
+        </ul>
+        <button class="learn-btn">Learn More</button>
+      </div>
+      <img src="images/Maskgroup.png" alt="Dream Design" />
+    </section>
+
+    <!-- Steps Section -->
+    <section class="steps">
+      <h2>Designing Your Dream in Three Simple Steps</h2>
+      <div class="steps-container">
+        <div>
+          <h3>Start Project</h3>
+          <p>Share your ideas and inspirations.</p>
+        </div>
+        <div>
+          <h3>Cost</h3>
+          <p>We create a cost-effective design.</p>
+        </div>
+        <div>
+          <h3>Execute</h3>
+          <p>We bring your dream space to reality.</p>
+        </div>
+      </div>
+      <img src="images/Maskgroup1.png" alt="Steps Image" />
+    </section>
+
+    <!-- footer section starts  -->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navbar = document.querySelector(".navbar");
+        const auth = document.querySelector(".auth");
+
+        menuToggle.addEventListener("click", (event) => {
+          event.preventDefault();
+          navbar.classList.toggle("active");
+        });
+      });
+    </script>
+  </body>
+</html>
