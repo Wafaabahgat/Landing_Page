@@ -40,7 +40,7 @@ li {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 } */
 
-.container {
+.contain {
   max-width: 1360px;
   margin: 0 auto;
   padding: 0 15px;
@@ -118,10 +118,6 @@ button {
   transition: 0.3s;
 }
 
-button:hover {
-  background-color: #444;
-}
-
 /* Hero */
 .hero {
   background-color: #f9f9f9;
@@ -185,7 +181,7 @@ button:hover {
   max-width: 450px;
 }
 
-.hero .contantImg .img-container {
+.hero .contantImg .img-contain {
   position: absolute;
   top: -35px;
   left: -35px;
@@ -226,7 +222,6 @@ button:hover {
 .header img {
   width: 100%;
   max-width: 800px;
-  margin-top: 20px;
 }
 
 /* Services Section */
@@ -278,13 +273,13 @@ button:hover {
   background-color: #fff;
 }
 
-.steps-container {
+.steps-contain {
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
 }
 
-.steps-container div {
+.steps-contain div {
   flex: 1;
   max-width: 300px;
 }
